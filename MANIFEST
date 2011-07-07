@@ -1,0 +1,15 @@
+Changes
+Init.pm
+MANIFEST
+Makefile.PL
+inc/MyTest.pm
+t/cmpPod.t
+t/export.t
+t/podBasic.t
+t/podBest.t
+t/podBetterEx.t
+t/podRunTime.t
+t/podRunTime2.t
+t/podSafer.t
+t/podSynops.t
+META.yml                                 Module meta-data (added by MakeMaker)
