@@ -2,3 +2,9 @@ Revision history for Perl extension Devel::Init
 
 0.001_001   2011-07-07
   - Initial developer release to CPAN.
+
+0.001_002   2011-10-05
+  - Fix letter-case mismatch that caused test failures except on Windows
+  - Remove \r characters from a few text files
+  - Add URL to github source repo
+  - 'chmod -x' on a couple of non-executable files

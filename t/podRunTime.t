@@ -23,7 +23,7 @@ BEGIN {
 
 {
     $INC{'DBI.pm'}= $INC{'Local/Config.pm'}= __FILE__;
-    $ENV{'db_name'}= 'fromEnv';
+    $ENV{'DB_NAME'}= 'fromEnv';
 
     sub Local::Config::GetDbConnectParams {
         my( $db )= @_;

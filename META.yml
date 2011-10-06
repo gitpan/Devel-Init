@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Devel-Init
-version:            0.001001
+version:            0.001002
 abstract:           Control when initialization happens, depending on situation.
 author:
     - Tye McQueen

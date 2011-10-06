@@ -51,6 +51,12 @@ sub Eval {
 
 sub Dies {
     my( $code, $omen, $desc )= @_;
+    #if(  ref $code  ) {
+    #    SkipIf(
+    #        ! Ok( undef, eval { $code->() }, "Should die:\n$desc" ),
+    #        $omen, $@, "Error from:\n$desc",
+    #    );
+    #}
     $desc ||= $code;
     my( $pkg, $file, $line )= caller();
     ++$line;
